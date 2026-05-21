@@ -21,7 +21,7 @@ h1{
 .Link {
     font-size: 20px;
     color: rgba(135, 207, 235, 0.301);
-    transition: all 0.3s ease-out;
+    transition: all 0.2s ease-out;
     margin-bottom: 100px;
 }
 
