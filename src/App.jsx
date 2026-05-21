@@ -7,10 +7,10 @@ import PageNotFound from './components/PageNotFound';
 import './App.css'
 
 function App() {
-  
+
   return (
     <BrowserRouter>
-      <div>
+      <div className='box'>
         <h1>React-Ruuter-Dom</h1>
         <Link to={'/about'}>About</Link>
         <Link to={'/contact'}>Contact</Link>
