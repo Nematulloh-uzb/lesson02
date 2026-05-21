@@ -11,7 +11,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className='box'>
-        <h1>React-Ruuter-Dom</h1>
+        <h1>React-Router-Dom</h1>
         <Link to={'/about'}>About</Link>
         <Link to={'/contact'}>Contact</Link>
 
