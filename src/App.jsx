@@ -12,14 +12,16 @@ function App() {
     <BrowserRouter>
       <div className='box'>
         <h1>React-Router-Dom</h1>
-        <Link to={'/about'}>About</Link>
-        <Link to={'/contact'}>Contact</Link>
+        <div className="container">
+          <Link className='Link' to={'/about'}>About</Link>
+          <Link className='Link' to={'/contact'}>Contact</Link>
 
-        <Routes>
-          <Route path='/about' element={<About />} />
-          <Route path='/contact' element={<Contact />} />
-          <Route path='*' element={<PageNotFound />} />
-        </Routes>
+          <Routes>
+            <Route path='/about' element={<About />} />
+            <Route path='/contact' element={<Contact />} />
+            <Route path='*' element={<PageNotFound />} />
+          </Routes>
+        </div>
       </div>
 
     </BrowserRouter>
