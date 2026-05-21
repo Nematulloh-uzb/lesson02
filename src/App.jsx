@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
-import About from
+import About from './components/';
+
 import './App.css'
 
 function App() {
