@@ -7,7 +7,7 @@ import PageNotFound from './components/PageNotFound';
 import './App.css'
 
 function App() {
-
+h
   return (
     <BrowserRouter>
       <div>
@@ -17,7 +17,7 @@ function App() {
 
         <Routes>
           <Route path='/about' element={<About />} />
-          <Route path='/contact' element={<contact />} />
+          <Route path='/contact' element={<Contact />} />
           <Route path='*' element={<PageNotFound />} />
         </Routes>
       </div>
