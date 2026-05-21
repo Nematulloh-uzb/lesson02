@@ -13,7 +13,7 @@ function App() {
       <div>
         <h1>React-Ruuter-Dom</h1>
         <Link to={'/about'}>About</Link>
-        <Link to={'/contact'}>Xontact</Link>
+        <Link to={'/contact'}>Contact</Link>
 
         <Routes>
           <Route path='/about' element={<About />} />
