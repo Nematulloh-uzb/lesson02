@@ -9,9 +9,20 @@ import './App.css'
 function App() {
 
   return (
-    <>
-      
-    </>
+    <BrowserRouter>
+      <div>
+        <h1>React-Ruuter-Dom</h1>
+        <Link to={'/about'}>About</Link>
+        <Link to={'/contact'}>Xontact</Link>
+
+        <Routes>
+          <Route path='/about' element={<About />} />
+          <Route path='/contact' element={<contact />} />
+          <Route path='*' element={<PageNotFound />} />
+        </Routes>
+      </div>
+
+    </BrowserRouter>
   )
 }
 
