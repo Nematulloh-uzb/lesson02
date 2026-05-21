@@ -11,10 +11,12 @@ function App() {
   return (
     <BrowserRouter>
       <div className='box'>
-        <h1>React-Router-Dom</h1>
+        <h1 className='first'>React-Router-Dom</h1>
         <div className="container">
-          <Link className='Link' to={'/about'}>About</Link>
-          <Link className='Link' to={'/contact'}>Contact</Link>
+          <div className="container__links">
+            <Link className='Link' to={'/about'}>About</Link>
+            <Link className='Link' to={'/contact'}>Contact</Link>
+          </div>
 
           <Routes>
             <Route path='/about' element={<About />} />
