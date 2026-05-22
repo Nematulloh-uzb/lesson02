@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import About from './components/about';
 import Contact from './components/contact';
 import PageNotFound from './components/PageNotFound';
+import Home from './components/home'
 
 import './App.css'
 
@@ -14,11 +15,13 @@ function App() {
         <h1 className='first'>React-Router-Dom</h1>
         <div className="container">
           <div className="container__links">
+            <Link className='Link' to={'/'}>Home</Link>
             <Link className='Link' to={'/about'}>About</Link>
             <Link className='Link' to={'/contact'}>Contact</Link>
           </div>
 
           <Routes>
+            <Route path='/' element={<Home />} />
             <Route path='/about' element={<About />} />
             <Route path='/contact' element={<Contact />} />
             <Route path='*' element={<PageNotFound />} />
