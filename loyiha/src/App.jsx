@@ -36,18 +36,3 @@ function App() {
 }
 
 export default App
-
-
-
-function App() {
-
-  return (
-    <BrowserRouter>
-      <div className='box'>
-        <h1 className='first'>React-Router-Dom</h1>
-
-      </div>
-
-    </BrowserRouter>
-  )
-}
