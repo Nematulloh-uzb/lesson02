@@ -32,3 +32,22 @@
     color: #FB5014;
 }
 
+.navbar__search {
+    width: 350px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 500px;
+}
+
+.navbar__search input {
+    width: 89%;
+    height: 89%;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
