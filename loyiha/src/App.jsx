@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import About from './components/about';
 import Contact from './components/contact';
 import PageNotFound from './components/PageNotFound';
-import Home from './components/home'
+import Home from './components/home.jsx'
 import './App.css'
 
 function App() {
