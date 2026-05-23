@@ -21,13 +21,13 @@ function App() {
               <Link className='Link' to='/blue'>Blue</Link>
               <Link className='Link' to='/red'>Red</Link>
             </div>
+
+            <div className="navbar__search">
+              <input type="text" placeholder='Search...' />
+              <button><FaSearch /></button>
+            </div>
           </div>
 
-
-          <div className="navbar__search">
-            <input type="text" placeholder='Search...' />
-            <button><FaSearch /></button>
-          </div>
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/blue' element={<About />} />
