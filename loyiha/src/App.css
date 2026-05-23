@@ -16,3 +16,8 @@
     font-weight: 600;
     color: #17B4CC;
 }
+
+.navbar__links {
+    display: flex;
+    gap: 150px;
+}

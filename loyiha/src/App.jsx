@@ -18,8 +18,8 @@ function App() {
 
             <div className="navbar__links">
               <Link className='Link' to='/'>Home</Link>
-              <Link className='Link' to='/blue'>Blue</Link>
               <Link className='Link' to='/red'>Red</Link>
+              <Link className='Link' to='/blue'>Blue</Link>
             </div>
 
             <div className="navbar__search">
@@ -30,8 +30,8 @@ function App() {
 
           <Routes>
             <Route path='/' element={<Home />} />
-            <Route path='/blue' element={<About />} />
             <Route path='/red' element={<Contact />} />
+            <Route path='/blue' element={<About />} />
             <Route path='*' element={<PageNotFound />} />
           </Routes>
         </div>
