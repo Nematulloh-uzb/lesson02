@@ -60,10 +60,10 @@
     font-size: 25px;
     border-radius: 500px;
     cursor: pointer;
-    transition: all 0.3s ease-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .navbar__search button:hover {
-    background: #FB5014;
-    color: white;
+    background: white;
+    color: #FB5014;
 }
