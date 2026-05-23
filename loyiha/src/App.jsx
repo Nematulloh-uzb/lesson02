@@ -31,6 +31,7 @@ function App() {
       </div>
       <div className="navbar__search">
         <input type="text" placeholder='Search...' />
+        <FaSearch />
       </div>
     </BrowserRouter>
   )
