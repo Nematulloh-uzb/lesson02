@@ -9,29 +9,31 @@ import './App.css'
 function App() {
   return (
     <BrowserRouter>
-      <div>
-        <div className="navbar">
-          <div className="navbar__logo">
-            <h2>jump<span>.</span></h2>
+      <div className='box'>
+        <div className="container">
+          <div className="navbar">
+            <div className="navbar__logo">
+              <h2>jump<span>.</span></h2>
+            </div>
+
+            <div className="navbar__links">
+              <Link className='Link' to='/'>Home</Link>
+              <Link className='Link' to='/blue'>Blue</Link>
+              <Link className='Link' to='/red'>Red</Link>
+            </div>
           </div>
 
-          <div className="navbar__links">
-            <Link className='Link' to='/'>Home</Link>
-            <Link className='Link' to='/blue'>Blue</Link>
-            <Link className='Link' to='/red'>Red</Link>
-          </div>
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/blue' element={<About />} />
+            <Route path='/red' element={<Contact />} />
+            <Route path='*' element={<PageNotFound />} />
+          </Routes>
         </div>
-
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/blue' element={<About />} />
-          <Route path='/red' element={<Contact />} />
-          <Route path='*' element={<PageNotFound />} />
-        </Routes>
-      </div>
-      <div className="navbar__search">
-        <input type="text" placeholder='Search...' />
-        <button><FaSearch /></button>
+        <div className="navbar__search">
+          <input type="text" placeholder='Search...' />
+          <button><FaSearch /></button>
+        </div>
       </div>
     </BrowserRouter>
   )
