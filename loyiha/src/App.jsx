@@ -3,6 +3,7 @@ import About from './components/red.jsx'
 import Contact from './components/blue.jsx'
 import PageNotFound from './components/PageNotFound.jsx'
 import Home from './components/home.jsx'
+import { FaSearch } from "react-icons/fa";
 import './App.css'
 
 function App() {
@@ -30,7 +31,6 @@ function App() {
       </div>
       <div className="navbar__search">
         <input type="text" placeholder='Search...' />
-        <button>Search</button>
       </div>
     </BrowserRouter>
   )
