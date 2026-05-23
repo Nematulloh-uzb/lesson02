@@ -40,6 +40,7 @@
     align-items: center;
     border: 1px solid;
     border-radius: 500px;
+    padding: 10px;
 }
 
 .navbar__search input {
@@ -51,3 +52,18 @@
     border-radius: 10px;
 }
 
+.navbar__search button {
+    border: none;
+    background: white;
+    color: black;
+    font-weight: 100;
+    font-size: 25px;
+    border-radius: 500px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.navbar__search button:hover {
+    background: #FB5014;
+    color: white;
+}
