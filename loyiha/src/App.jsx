@@ -23,17 +23,17 @@ function App() {
             </div>
           </div>
 
+
+          <div className="navbar__search">
+            <input type="text" placeholder='Search...' />
+            <button><FaSearch /></button>
+          </div>
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/blue' element={<About />} />
             <Route path='/red' element={<Contact />} />
             <Route path='*' element={<PageNotFound />} />
           </Routes>
-
-          <div className="navbar__search">
-            <input type="text" placeholder='Search...' />
-            <button><FaSearch /></button>
-          </div>
         </div>
       </div>
     </BrowserRouter>
