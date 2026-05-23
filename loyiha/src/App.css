@@ -2,4 +2,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 10px;
+}
+
+.navbar__logo {
+    font-size: 30px;
+    font-weight: 600;
+    color: #FB5014;
+}
+
+.navbar__logo span {
+    font-size: 54px;
+    font-weight: 600;
+    color: #17B4CC;
 }
