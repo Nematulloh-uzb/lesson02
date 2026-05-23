@@ -21,3 +21,15 @@
     display: flex;
     gap: 150px;
 }
+
+.navbar__links a {
+    font-size: 18px;
+    color: #000;
+    transition: all 0.3s ease;
+}
+
+.navbar__links a:hover {
+    color: #FB5014;
+}
+
+vfds
