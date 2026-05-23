@@ -28,6 +28,10 @@ function App() {
           <Route path='*' element={<PageNotFound />} />
         </Routes>
       </div>
+      <div className="navbar__search">
+        <input type="text" placeholder='Search...' />
+        <button>Search</button>
+      </div>
     </BrowserRouter>
   )
 }
